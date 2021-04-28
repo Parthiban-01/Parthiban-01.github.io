@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    
+}
+#main {    
+    width: 100%;
+    height: 60px;
+    position: relative;
+    background: white;
+
+}
+.nmenu {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width:100%;
+    box-shadow: 0px 1px 10px rgba(131, 131, 131, 0.425);
+    z-index: 1;
+    padding-bottom: 10px;
+    background: white;
+}
+.nmenu img {
+    height: 60px;
+    width: 120px;
+    margin-right: 200px;
+    margin-left: 0px;
+}
+.nmenu ul {
+    list-style: none;
+    display: flex;
+    margin-top: 0px;
+    margin-right: 150px;
+    margin-left: 10px;
+    width: 35vw;
+    
+}
+.nmenu ul li {
+    margin: 20px 0px 0px 50px;
+    height: 20px;
+}
+.nmenu ul li a {
+    color: rgb(100, 99, 99);
+    text-transform: uppercase;
+    font-size: 0.6em;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+.nmenu ul li a:hover {
+    color: black;
+}
+.nmenu a {
+
+    text-decoration: none;
+}
+.hi {
+    margin-top: 20px;
+    margin-right: 10px;
+    height: 20px;
+    font-size: 0.8em;
+    font-weight: 600;
+    color: #39bfbd;
+    border-bottom: 2px solid #39bfbd;
+}
+.cont {
+    display: flex;
+    position: relative;
+    top: 0;
+    width: 100%;
+    background: white;
+    overflow: auto;
+}
+.imcont {
+    margin-left: 80px;
+    margin-right: 40px;
+    padding-top: 100px;
+    
+}
+.imcont img {
+    object-fit: contain;
+    height: 400px;
+    width: 300px;
+}
+.textcont {
+    height: 500px;
+    width: 400px;
+    margin-top: 150px;
+    margin-left: 80px;   
+}
+.textcont h1 {
+    text-transform: capitalize;
+    line-height: 60px;
+    font-size: 2.8em;
+    margin-bottom: 10px;
+}
+.textcont p {
+    color: gray;
+    margin-bottom: 0px;
+}
+.textcont a {
+    padding-top: 12px;
+    padding-left: 30px; 
+    margin-top: 20px;
+    display: inline-block;
+    color: white;
+    background: #1db096;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-size: 1em;
+    overflow: hidden;
+    border-radius: 30px;
+    height: 45px;
+    width: 200px;
+    box-shadow: 5px 9px 30px rgba(24, 139, 119, 0.2);   
+}
+.textcont a:hover {
+    background:  #23cdaf;
+    animation: all ease 0.2s;
+}
