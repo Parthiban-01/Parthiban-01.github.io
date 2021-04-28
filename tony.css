@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    
+}
+#mainsection {    
+    width: 100%;
+    height: 60px;
+    position: relative;
+    background: white;
+
+}
+.navmenu {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width:100%;
+    box-shadow: 0px 1px 10px rgba(131, 131, 131, 0.425);
+    z-index: 1;
+    padding-bottom: 10px;
+    background: white;
+}
+.navmenu img {
+    height: 60px;
+    width: 120px;
+    margin-right: 200px;
+    margin-left: 0px;
+}
+.navmenu ul {
+    list-style: none;
+    display: flex;
+    margin-top: 0px;
+    margin-right: 150px;
+    margin-left: 10px;
+    width: 35vw;
+    
+}
+.navmenu ul li {
+    margin: 20px 0px 0px 50px;
+    height: 20px;
+}
+.navmenu ul li a {
+    color: rgb(100, 99, 99);
+    text-transform: uppercase;
+    font-size: 0.6em;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+.navmenu ul li a:hover {
+    color: black;
+}
+.navmenu a {
+
+    text-decoration: none;
+}
+.hilink {
+    margin-top: 20px;
+    margin-right: 10px;
+    height: 20px;
+    font-size: 0.8em;
+    font-weight: 600;
+    color: blue;
+    border-bottom: 2px solid orangered;
+}
+.content {
+    display: flex;
+    position: relative;
+    top: 0;
+    width: 100%;
+    background: white;
+    overflow: auto;
+}
+.imgcontent {
+    margin-left: 80px;
+    margin-right: 40px;
+}
+.imgcontent img {
+    height: 500px;
+    object-fit: contain;
+}
+.txtcontent {
+    height: 500px;
+    width: 400px;
+    margin-top: 150px;
+    margin-left: 80px;   
+}
+.txtcontent h1 {
+    text-transform: capitalize;
+    line-height: 60px;
+    font-size: 2.8em;
+    margin-bottom: 10px;
+}
+.txtcontent p {
+    color: gray;
+    margin-bottom: 0px;
+}
+.txtcontent a {
+    padding-top: 12px;
+    padding-left: 40px; 
+    margin-top: 20px;
+    display: inline-block;
+    color: white;
+    background: orangered;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-size: 1em;
+    overflow: hidden;
+    border-radius: 30px;
+    height: 45px;
+    width: 200px;
+    box-shadow: 2px 2px 10px orangered;   
+}
+.txtcontent a:hover {
+    box-shadow: 5px 5px 10px orangered;
+    animation: ease;
+}
